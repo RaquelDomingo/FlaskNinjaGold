@@ -1,0 +1,57 @@
+.container{
+    width: 800px;
+    height: 500px;
+    position: center;
+    background-repeat: no-repeat;
+    margin-left: 280px;
+}
+#activities {
+	height: 150px;
+    width: 500px;
+    margin-left: 130px;
+	overflow: scroll;
+	border: 5px solid;
+	padding: 15px;
+    background-color: white;
+}
+.row h4{
+    font-size: 26px;
+    text-align: center;
+}
+.column{
+    text-align: center;
+    border: 5px solid black;
+    width: 170px;
+    height: 180px;
+    margin: 10px 5px 10px 5px;
+    display: inline-block;
+    background-color: #13a052;
+}
+.button{
+    background-color: goldenrod;
+    box-shadow: 5px 5px 5px gold;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    font-family: verdana;
+}
+.lose {
+	color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.win {
+	color: green;
+}
+.replay{
+    border: 5px solid black;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 340px;
+    margin-top: 20px;
+    background-color: #0b41e5;
+    font-size: 18px;
+}
